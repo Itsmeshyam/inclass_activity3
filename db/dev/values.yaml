@@ -8,10 +8,10 @@ db:
     repository: mariadb
     tag: 10.6.4-focal
     pullPolicy: Always
-  replicas: 3
+  replicas: 2
   configmap:
     ## KEY: "value"
-    MYSQL_DATABASE: C0929653
+    MYSQL_DATABASE: c0929653
     MYSQL_USER: 3324_user
     APP_ENV: dev
   containerPorts:
